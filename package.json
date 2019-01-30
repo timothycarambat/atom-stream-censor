@@ -1,0 +1,26 @@
+{
+  "name": "stream-censor",
+  "productName": "Stream Censor",
+  "main": "./lib/stream-censor",
+  "version": "0.0.0",
+  "description": "Blur your secrect key files while live streaming - while still being able to edit them and keep them secret!",
+  "keywords": [
+    "stream",
+    "censor",
+    "private",
+    ".env",
+    "livestream",
+    "twitch",
+    "hide"
+  ],
+  "activationCommands": {
+    "atom-workspace": "stream-censor:toggle"
+  },
+  "repository": "https://github.com/timothycarambat/atom-stream-censor",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+  }
+}

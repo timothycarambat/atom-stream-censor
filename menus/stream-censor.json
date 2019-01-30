@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Stream Censor",
+        "command": "stream-censor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Stream Censor",
+          "submenu": [
+            {
+              "label": "Toggle Stream Censor",
+              "command": "stream-censor:toggle"
+            },
+            {
+              "label": "Increase Blur Level",
+              "command": "stream-censor:increaseBlur"
+            },
+            {
+              "label": "Decrease Blur Level",
+              "command": "stream-censor:decreaseBlur"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
