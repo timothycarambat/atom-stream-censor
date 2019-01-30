@@ -2,7 +2,7 @@
   "name": "stream-censor",
   "productName": "Stream Censor",
   "main": "./lib/stream-censor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Blur your secrect key files while live streaming - while still being able to edit them and keep them secret!",
   "keywords": [
     "stream",
@@ -21,6 +21,5 @@
   "engines": {
     "atom": "*"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
